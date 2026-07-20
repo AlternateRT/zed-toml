@@ -79,7 +79,7 @@ impl TomlExtension {
                         env: binary_env,
                     });
                 }
-                return Err("failed to download latest github release".to_string());
+                return Err("Failed to download latest GitHub release".to_string());
             }
         };
 
